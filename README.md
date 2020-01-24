@@ -35,7 +35,7 @@ Oumaima Hmaied
     and we tried to implement a Convolutional Neural Network
 
 
-3. **Material and Method**
+3. **Material and Method**<br/>
    a.  **Supermarket Produce data set**
        Datasets plays very important role in research as it is much
        expensive and harder to generate because companies don’t feel
@@ -51,7 +51,7 @@ Oumaima Hmaied
        this project, we limited our work to the available dataset ​of fruits and
        vegetables spread across  74  labels​. We selected, from a large data set of
        120  labels, only the types of fruits/vegetable that are most common in
-       carrefour.
+       carrefour.<br/>
     b.  **Convolutional Neural Networks**
        To solve the problem of automatic fruit/vegetable recognition, we
        used the deep Convolutional Neural Network that have proven very
@@ -64,43 +64,43 @@ Oumaima Hmaied
           - Classification (Fully Connected Layer)
 
 
-Convolution in case of Conv.Net is used to extract features from
-the input image. Convolution preserves the spatial relation between
-pixels by learning image features using small squares of input
-image. The more number of filters we have, the more image features
-get extracted and the better the network becomes at recognizing
-patterns in unseen images.
-In our model we used 4 convolutions.
-ReLU: stand for rectified linear unit is a non-linear operation. The
-purpose of ReLU is to introduce to non-linearity in our Conv.Net
-because mostly Conv.Net has to learn non-linear real-world data. The
-biggest advantage of ReLU is non-saturation of its gradient, which
-greatly accelerates the convergence of stochastic gradient
-descent compared to the sigmoid / tanh functions.
-Pooling or Sub Sampling: ​The function of Pooling is to progressively
-reduce the spatial size of the input representation. In particular,
-pooling makes the input representations (feature dimension) smaller
-and more manageable. It also reduces the number of parameters and
-computations in the network, therefore, controlling overfitting.
-Another advantage of pooling that it makes the network invariant to
-small transformations, distortions and translations in the input image
-(a small distortion in input will not change the output of Pooling –
-since we take the maximum / average value in a local neighborhood).
-This is very powerful since we can detect objects in an image no matter
-where they are located.
-Classification​: The Fully Connected layer or classification is a
-traditional Multi Layer Perceptron that uses a softmax activation
-function in the output layer.
-The output from the convolutional and pooling layers represent
-high-level features of the input image. The purpose of the Fully
-Connected layer is to use these features for classifying the input image
-into various classes based on the training dataset.
-In general, the more convolution steps we have, the more complicated
-features our network will be able to learn and to recognize.
+    Convolution in case of Conv.Net is used to extract features from
+    the input image. Convolution preserves the spatial relation between
+    pixels by learning image features using small squares of input
+    image. The more number of filters we have, the more image features
+    get extracted and the better the network becomes at recognizing
+    patterns in unseen images.
+    In our model we used 4 convolutions.
+    ReLU: stand for rectified linear unit is a non-linear operation. The
+    purpose of ReLU is to introduce to non-linearity in our Conv.Net
+    because mostly Conv.Net has to learn non-linear real-world data. The
+    biggest advantage of ReLU is non-saturation of its gradient, which
+    greatly accelerates the convergence of stochastic gradient
+    descent compared to the sigmoid / tanh functions.
+    Pooling or Sub Sampling: ​The function of Pooling is to progressively
+    reduce the spatial size of the input representation. In particular,
+    pooling makes the input representations (feature dimension) smaller
+    and more manageable. It also reduces the number of parameters and
+    computations in the network, therefore, controlling overfitting.
+    Another advantage of pooling that it makes the network invariant to
+    small transformations, distortions and translations in the input image
+    (a small distortion in input will not change the output of Pooling –
+    since we take the maximum / average value in a local neighborhood).
+    This is very powerful since we can detect objects in an image no matter
+    where they are located.
+    Classification​: The Fully Connected layer or classification is a
+    traditional Multi Layer Perceptron that uses a softmax activation
+    function in the output layer.
+    The output from the convolutional and pooling layers represent
+    high-level features of the input image. The purpose of the Fully
+    Connected layer is to use these features for classifying the input image
+    into various classes based on the training dataset.
+    In general, the more convolution steps we have, the more complicated
+    features our network will be able to learn and to recognize.
 
 
-Based on our research for image classification, we used  2  fully
-connected layers.
+    Based on our research for image classification, we used  2  fully
+    connected layers.
 
 3.  **Experiments result & Analysis**
     We used Python 3.6 to implement our solution. We have developed this in
