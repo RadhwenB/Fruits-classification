@@ -1,6 +1,6 @@
-Dhiaeddine Alioui
+[BOUAOUN Radhwen](https://www.linkedin.com/in/radhwen-bouaoun/) |
+Dhiaeddine Alioui |
 Oumaima Hmaied
-Radhwen Bouaoun
 
 # Balance EYE
 
@@ -15,7 +15,7 @@ Radhwen Bouaoun
     this project we tried to solve such problem by the use of a camera attached to
     the balance that identifies fruits and vegetables based on color, texture, and
     appearance cues.
-**2. Problem Description**
+2. **Problem Description**
     The problem of fruit/vegetable recognition is a recurrent problem that a
     consumer can face when he wants to buy fresh products. We personally faced
     such problem several times while in Carrefour and we also noticed that a lot
@@ -35,8 +35,8 @@ Radhwen Bouaoun
     and we tried to implement a Convolutional Neural Network
 
 
-**3. Material and Method**
-    **a. Supermarket Produce data set**
+3. **Material and Method**
+   a.  **Supermarket Produce data set**
        Datasets plays very important role in research as it is much
        expensive and harder to generate because companies don’t feel
        freely giving away their investment.
@@ -52,7 +52,7 @@ Radhwen Bouaoun
        vegetables spread across  74  labels​. We selected, from a large data set of
        120  labels, only the types of fruits/vegetable that are most common in
        carrefour.
-    **b. Convolutional Neural Networks**
+    b.  **Convolutional Neural Networks**
        To solve the problem of automatic fruit/vegetable recognition, we
        used the deep Convolutional Neural Network that have proven very
        effective in areas such as image recognition and classification. Four
@@ -102,7 +102,7 @@ features our network will be able to learn and to recognize.
 Based on our research for image classification, we used  2  fully
 connected layers.
 
-**3. Experiments result & Analysis**
+3.  **Experiments result & Analysis**
     We used Python 3.6 to implement our solution. We have developed this in
     keras.
     At the first step we used the whole dataset with  82110  images of fruits and
@@ -114,7 +114,7 @@ connected layers.
 The test accuracy obtained is less than the one we got using RGB images as
 input.
 
-**4. conclusions**
+4. **conclusions**
     During this project we tried to solve a real problem that we faced while
     shopping in the supermarket. But because of the lack of a complete and
     well-documented fruit and vegetables image data set, we couldn’t train and
