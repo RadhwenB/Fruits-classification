@@ -111,7 +111,7 @@
     The test accuracy obtained is less than the one we got using RGB images as
     input.
 
-5. **conclusions**<br>
+5.  **Conclusions**<br>
     During this project we tried to solve a real problem that we faced while
     shopping in the supermarket. But because of the lack of a complete and
     well-documented fruit and vegetables image data set, we couldn’t train and
