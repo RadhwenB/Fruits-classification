@@ -1,6 +1,3 @@
-[BOUAOUN Radhwen](https://www.linkedin.com/in/radhwen-bouaoun/) |
-Dhiaeddine Alioui |
-Oumaima Hmaied
 
 # Balance EYE
 
@@ -121,3 +118,6 @@ input.
     test our model to be implemented in the real world.
 
 
+[BOUAOUN Radhwen](https://www.linkedin.com/in/radhwen-bouaoun/) |
+Dhiaeddine Alioui |
+Oumaima Hmaied
