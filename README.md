@@ -1,7 +1,7 @@
 
 # Balance EYE
 
-1. **Introduction**
+1. **Introduction** <br>
     Recognizing different kinds of vegetables and fruits is a re-current task in
     supermarkets, where consumers that attempt to buy fruits/vegetables must be
     able to point out not only the species of a particular fruit (i.e., ba-nana, apple,
@@ -12,7 +12,7 @@
     this project we tried to solve such problem by the use of a camera attached to
     the balance that identifies fruits and vegetables based on color, texture, and
     appearance cues.
-2. **Problem Description**
+2. **Problem Description** <br>
     The problem of fruit/vegetable recognition is a recurrent problem that a
     consumer can face when he wants to buy fresh products. We personally faced
     such problem several times while in Carrefour and we also noticed that a lot
@@ -99,7 +99,7 @@
     Based on our research for image classification, we used  2  fully
     connected layers.
 
-4.  **Experiments result & Analysis**
+4.  **Experiments result & Analysis**<br>
     We used Python 3.6 to implement our solution. We have developed this in
     keras.
     At the first step we used the whole dataset with  82110  images of fruits and
@@ -108,10 +108,10 @@
     from RGB to HSV image + grey scale, the new input shape is ( 100 x 100 x 4 ).
     We obtained the following result :
 
-The test accuracy obtained is less than the one we got using RGB images as
-input.
+    The test accuracy obtained is less than the one we got using RGB images as
+    input.
 
-5. **conclusions**
+5. **conclusions**<br>
     During this project we tried to solve a real problem that we faced while
     shopping in the supermarket. But because of the lack of a complete and
     well-documented fruit and vegetables image data set, we couldn’t train and
