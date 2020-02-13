@@ -33,7 +33,7 @@
 
 
 3. **Material and Method**<br/>
-   a.  **Supermarket Produce data set**
+   a.  **Supermarket Produce data set**<br>
        Datasets plays very important role in research as it is much
        expensive and harder to generate because companies don’t feel
        freely giving away their investment.
@@ -49,7 +49,7 @@
        vegetables spread across  74  labels​. We selected, from a large data set of
        120  labels, only the types of fruits/vegetable that are most common in
        carrefour.<br/>
-    b.  **Convolutional Neural Networks**
+    b.  **Convolutional Neural Networks**<br>
        To solve the problem of automatic fruit/vegetable recognition, we
        used the deep Convolutional Neural Network that have proven very
        effective in areas such as image recognition and classification. Four
