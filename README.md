@@ -99,7 +99,7 @@
     Based on our research for image classification, we used  2  fully
     connected layers.
 
-3.  **Experiments result & Analysis**
+4.  **Experiments result & Analysis**
     We used Python 3.6 to implement our solution. We have developed this in
     keras.
     At the first step we used the whole dataset with  82110  images of fruits and
@@ -111,7 +111,7 @@
 The test accuracy obtained is less than the one we got using RGB images as
 input.
 
-4. **conclusions**
+5. **conclusions**
     During this project we tried to solve a real problem that we faced while
     shopping in the supermarket. But because of the lack of a complete and
     well-documented fruit and vegetables image data set, we couldn’t train and
