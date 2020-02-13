@@ -1,5 +1,5 @@
 
-# Balance EYE
+# Fruits Classification
 
 1. **Introduction** <br>
     Recognizing different kinds of vegetables and fruits is a re-current task in
