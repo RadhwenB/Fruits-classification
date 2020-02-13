@@ -4,7 +4,7 @@
 1. **Introduction** <br>
     Recognizing different kinds of vegetables and fruits is a re-current task in
     supermarkets, where consumers that attempt to buy fruits/vegetables must be
-    able to point out not only the species of a particular fruit (i.e., ba-nana, apple,
+    able to point out not only the species of a particular fruit (i.e., banana, apple,
     pear) but also its variety (i.e., Golden Delicious,Jonagold, Fuji), which will
     determine its price. In the past, several methods has been used in order to
     facilitate this task such as the use of barcodes or a small booklet with pictures
